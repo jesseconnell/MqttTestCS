@@ -170,7 +170,7 @@ namespace MqttTestCS
 
                 byte b = client.Connect(clientId, "", "", true, MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, true,
                     //string.Format("/{0}/will", clientId), "my will",
-                    "/topic1", string.Format("{0} just died  :(", clientId),
+                    "deaths/{0}", string.Format("{0} just died  :(", clientId),
                     false, 600);
 
                 if (b == 0)

@@ -45,7 +45,7 @@
             // 
             // publishButton
             // 
-            this.publishButton.Location = new System.Drawing.Point(12, 153);
+            this.publishButton.Location = new System.Drawing.Point(12, 175);
             this.publishButton.Name = "publishButton";
             this.publishButton.Size = new System.Drawing.Size(75, 23);
             this.publishButton.TabIndex = 4;
@@ -55,7 +55,7 @@
             // 
             // messageTextBox
             // 
-            this.messageTextBox.Location = new System.Drawing.Point(93, 155);
+            this.messageTextBox.Location = new System.Drawing.Point(93, 177);
             this.messageTextBox.Name = "messageTextBox";
             this.messageTextBox.Size = new System.Drawing.Size(406, 20);
             this.messageTextBox.TabIndex = 5;
@@ -75,11 +75,11 @@
             this.logTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.logTextBox.Location = new System.Drawing.Point(12, 181);
+            this.logTextBox.Location = new System.Drawing.Point(12, 203);
             this.logTextBox.Multiline = true;
             this.logTextBox.Name = "logTextBox";
             this.logTextBox.ReadOnly = true;
-            this.logTextBox.Size = new System.Drawing.Size(487, 280);
+            this.logTextBox.Size = new System.Drawing.Size(487, 258);
             this.logTextBox.TabIndex = 7;
             // 
             // topicsCheckListBox
@@ -92,10 +92,11 @@
             "topic1/sub3",
             "topic2",
             "topic3",
-            "topic3/sub1"});
+            "topic3/sub1",
+            "deaths/+"});
             this.topicsCheckListBox.Location = new System.Drawing.Point(12, 38);
             this.topicsCheckListBox.Name = "topicsCheckListBox";
-            this.topicsCheckListBox.Size = new System.Drawing.Size(123, 109);
+            this.topicsCheckListBox.Size = new System.Drawing.Size(123, 124);
             this.topicsCheckListBox.TabIndex = 3;
             this.topicsCheckListBox.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.topicsCheckListBox_ItemCheck);
             // 
